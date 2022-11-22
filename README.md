@@ -11,4 +11,13 @@ SSD,YOLOv4
 A very good resource to refer concepts of deep learning http://cs231n.stanford.edu/schedule.html
 
 
-Object tracking is done using YOLO and DeepSort 
+Multiple Object tracking is done using YOLO and DeepSORT(Simple Online Realtime Tracking) 
+(Detection, prediction, association)
+1. Perform object detection using YOLOV4
+2. Deep SORT (Deep sort is extension of sort algorithm)
+    --Kalman filtering: Process the correlation frame by frame
+    --Hungarian Algorithm: correlation measurement
+    --CNN Networks: Training and feature extraction
+    
+Good resource to implement Tracking is https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet
+
