@@ -24,3 +24,20 @@ Good resource to implement Tracking is https://github.com/mikel-brostrom/Yolov5_
 YOLOv7 which was launched recently surpassed all the earlier known object detector in speed and accuracy.
 Good medium article to implement perception problems is:
 https://medium.com/@shahrullo/visual-perception-for-self-driving-cars-bb500f8c6adc
+
+
+
+# Perception for Self Driving Cars
+Perception proble for self driving cars is to get data from sensors, understand the scene and pass the information to planning module
+Inorder to understand the perception architecture, we look how Tesla is solving this problem.
+
+Earlier architecture is hydra nets to detect objects, lane lines, depth and segmentation masks from each camera feed.
+While this approach increased the computation efficiency, it is lacking the spacial and time awareness. To solve the issue, Tesla built an unique architecture.
+
+Camera feed from all the 8 cameras are read and a vector space is generated. This vector space is a 3D world representation of surrounding around the car.
+Object detection, tracking, segmentation, depth estimation, time awareness, lane detection, object detection is performed in vector space. 
+But standard data sets for creating and understanding vector space are not available. So tesla created the on their own.
+
+Occupancy network.
+
+
