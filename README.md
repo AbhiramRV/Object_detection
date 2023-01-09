@@ -40,7 +40,11 @@ But standard data sets for creating and understanding vector space are not avail
 
 Occupancy network.
 
+
+
 Choice of loss function varies depending on the problem. Loss function calculates deviation between predicted and actual values whereas cost function calculates average fo the deviation across the training dataset.
+
+Using inbuilt python function significantly increases the speed of computation than using explicit for loops in the code.
 
 
 
