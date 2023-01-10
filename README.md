@@ -51,4 +51,7 @@ Choice of loss function depends on problem. Whether Classification or regression
 Parameters while a DNN are weights and biases.
 Hyperparameters learning rate, Number of iterations, number of hidden layers, number of units in each layer, choice of activation layer, momentum, mini batch size, regularization parameters, etc
 
+Model which underfits the data is said to be having high bias and model which ovefits is said to be having high variance.
+Looking at training error model bias can be determined and validation error is used to estimate the model variance.
+
 
