@@ -48,6 +48,7 @@ Using inbuilt python function significantly increases the speed of computation t
 Derivative of ReLU activation is either 0(for negative input) or 1(for positive value). Hence speed of execution is faster. 
 Tanh activation is superior than sigmoid function.
 Choice of loss function depends on problem. Whether Classification or regression. If classification number of classes. 
-
+Parameters while a DNN are weights and biases.
+Hyperparameters learning rate, Number of iterations, number of hidden layers, number of units in each layer, choice of activation layer, momentum, mini batch size, regularization parameters, etc
 
 
