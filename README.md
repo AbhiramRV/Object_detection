@@ -54,4 +54,9 @@ Hyperparameters learning rate, Number of iterations, number of hidden layers, nu
 Model which underfits the data is said to be having high bias and model which ovefits is said to be having high variance.
 Looking at training error model bias can be determined and validation error is used to estimate the model variance.
 
+To reduce bias, increase the size of dataset, increase the model and train for longer
+To reduce variance, use regularization.
 
+Regularization prevents overfitting.
+L2 regularization is penalising the weights with L2 norm.
+Dropout regularization
