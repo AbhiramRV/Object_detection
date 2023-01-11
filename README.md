@@ -66,3 +66,6 @@ Other regularization techniques are data augmentation(Rotation, cropping, distor
 Normalization:
 Normalizing the input data makes the learning process faster.
 Vanishing or exploding gradient can be partially solved by careful initialization of weights.
+
+While choosing the mini-batch size, select number which can be represented as a power of 2 ( eg: 64,128,256,512 etc). This helps in faster training.
+And mini batch size should fit in the CP/GPU memory
