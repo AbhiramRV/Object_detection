@@ -73,3 +73,7 @@ Adam Optimization is the combination of momentum and rmsprop algorithms.
 Training(learning) the network is nothing but optimizing the parameters(weights and biases).
 1 Epoch is when network sees the entire training set once.  
 
+Batch Normalization: BatchNorm is normalizing the layer output before activation. Batch Norm increase the speed of training dramatically.
+For multiclass classification problem, last layer in the network is sofmax layer.
+
+
