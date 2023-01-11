@@ -69,3 +69,7 @@ Vanishing or exploding gradient can be partially solved by careful initializatio
 
 While choosing the mini-batch size, select number which can be represented as a power of 2 ( eg: 64,128,256,512 etc). This helps in faster training.
 And mini batch size should fit in the CP/GPU memory
+Adam Optimization is the combination of momentum and rmsprop algorithms.
+Training(learning) the network is nothing but optimizing the parameters(weights and biases).
+1 Epoch is when network sees the entire training set once.  
+
