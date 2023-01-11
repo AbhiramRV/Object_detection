@@ -60,3 +60,9 @@ To reduce variance, use regularization.
 Regularization prevents overfitting.
 L2 regularization is penalising the weights with L2 norm.
 Dropout regularization
+Other regularization techniques are data augmentation(Rotation, cropping, distortion), Early stopping etc
+
+
+Normalization:
+Normalizing the input data makes the learning process faster.
+Vanishing or exploding gradient can be partially solved by careful initialization of weights.
