@@ -89,3 +89,7 @@ Steps to develop a models are
 2. Build initial system quickly
 3. Use Bias/Varaince analysis &error analysis to figure out the next step and improve the model.
 
+Bias is the difference between human error and training error
+Varaince is the difference between training error and dev error
+
+Transfer Learning: Process of using pre trained network and fine-tuning for required task. Last layer of the pretrained network is removed and suitable new layer is added to fine tune.
