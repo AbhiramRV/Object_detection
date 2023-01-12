@@ -76,4 +76,10 @@ Training(learning) the network is nothing but optimizing the parameters(weights 
 Batch Normalization: BatchNorm is normalizing the layer output before activation. Batch Norm increase the speed of training dramatically.
 For multiclass classification problem, last layer in the network is sofmax layer.
 
+Steps of developing a model
+1. Fit a model well on training set.(To increase this process, use bigger models, better optimizers etc)
+2. Eval on dev set (To improve use Regularization, Bigger training set for better generalization)
+3. Eval on test set (To improve use bigger dev set)
+4. Real world testing (To improve change dev set or change cost function) 
 
+This process of tuning the model is called Orthogonalization
