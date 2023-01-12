@@ -83,3 +83,9 @@ Steps of developing a model
 4. Real world testing (To improve change dev set or change cost function) 
 
 This process of tuning the model is called Orthogonalization
+
+Steps to develop a models are
+1.  Setup Train,Dev,Test sets and metrices
+2. Build initial system quickly
+3. Use Bias/Varaince analysis &error analysis to figure out the next step and improve the model.
+
