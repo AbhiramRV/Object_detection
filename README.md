@@ -93,3 +93,7 @@ Bias is the difference between human error and training error
 Varaince is the difference between training error and dev error
 
 Transfer Learning: Process of using pre trained network and fine-tuning for required task. Last layer of the pretrained network is removed and suitable new layer is added to fine tune.Transfer learning makes sense when you have a lot of data for the problem you're transferring from and usually relatively less data for the problem you're transferring to.
+
+
+Common types of layers used in DL are Convolution layers, Pooling layers and fully connected layers
+
