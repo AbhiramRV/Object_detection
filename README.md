@@ -96,4 +96,5 @@ Transfer Learning: Process of using pre trained network and fine-tuning for requ
 
 
 Common types of layers used in DL are Convolution layers, Pooling layers and fully connected layers
+Pooling reduces width and height but depth stays same.
 
