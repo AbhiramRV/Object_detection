@@ -85,7 +85,7 @@ Steps of developing a model
 This process of tuning the model is called Orthogonalization
 
 Steps to develop a models are
-1.  Setup Train,Dev,Test sets and metrices
+1. Setup Train,Dev,Test sets and metrices
 2. Build initial system quickly
 3. Use Bias/Varaince analysis &error analysis to figure out the next step and improve the model.
 
@@ -98,7 +98,9 @@ Transfer Learning: Process of using pre trained network and fine-tuning for requ
 Common types of layers used in DL are Convolution layers, Pooling layers and fully connected layers
 Pooling reduces width and height but depth stays same.
 
-Classic image classification networks are LeNet, AlexNet and VGG-16 etc
+Classic image classification networks are LeNet, AlexNet and VGG-16 etc and 
 One issue with training large networks is vanishing or exploding gradient. Inorder to solve this problem, residual blocks were used in the networks
+Resnet, Inception, MobileNet, EfficientNet etc are some of the deep networks for object classification.
+ 
 
 
