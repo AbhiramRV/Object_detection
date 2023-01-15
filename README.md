@@ -102,5 +102,6 @@ Classic image classification networks are LeNet, AlexNet and VGG-16 etc and
 One issue with training large networks is vanishing or exploding gradient. Inorder to solve this problem, residual blocks were used in the networks
 Resnet, Inception, MobileNet, EfficientNet etc are some of the deep networks for object classification.
  
+R-CNN, Fast R-CNN and Faster R-CNN, YOLO are some models for object detection.
 
 
