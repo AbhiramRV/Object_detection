@@ -105,3 +105,20 @@ Resnet, Inception, MobileNet, EfficientNet etc are some of the deep networks for
 R-CNN, Fast R-CNN and Faster R-CNN, YOLO are some models for object detection.
 
 
+
+Usually , more than one sensor are used for perception tasks. Like combination of Camers,LIDAR and RADAR etc
+These sensors information are used for imporoved detection and tracking by sensor fusion techinques.
+
+Waymo open dataset can be used to train models and develop perception algorithms.
+https://github.com/waymo-research/waymo-open-dataset
+
+and Udacity nano degree assignments 
+https://github.com/udacity/nd013-c2-fusion-starter
+
+
+
+
+
+
+
+
