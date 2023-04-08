@@ -28,7 +28,10 @@ https://medium.com/@shahrullo/visual-perception-for-self-driving-cars-bb500f8c6a
 
 
 # Perception for Self Driving Cars
-Perception proble for self driving cars is to get data from sensors, understand the scene and pass the information to planning module
+
+In perception tasks, we estimate the position and orientation of robot, detect objects(static and dynamic) and track and predict the motion, detect drivable area, Lanes and Traffic sign detection, Consturction of occupancy map around the vehicle. 
+
+Perception problem for self driving cars is to get data from sensors, understand the scene and pass the information to planning module
 Inorder to understand the perception architecture, we look how Tesla is solving this problem.
 
 Earlier architecture is hydra nets to detect objects, lane lines, depth and segmentation masks from each camera feed.
@@ -114,6 +117,9 @@ https://github.com/waymo-research/waymo-open-dataset
 
 and Udacity nano degree assignments 
 https://github.com/udacity/nd013-c2-fusion-starter
+
+
+
 
 
 
