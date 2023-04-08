@@ -108,9 +108,11 @@ Resnet, Inception, MobileNet, EfficientNet etc are some of the deep networks for
 R-CNN, Fast R-CNN and Faster R-CNN, YOLO are some models for object detection.
 
 
-
+# Sensor Fusion
 Usually , more than one sensor are used for perception tasks. Like combination of Camers,LIDAR and RADAR etc
 These sensors information are used for imporoved detection and tracking by sensor fusion techinques.
+
+PCL library and ROS lidar package can be used to simplify the LIDAR work flow. 
 
 Waymo open dataset can be used to train models and develop perception algorithms.
 https://github.com/waymo-research/waymo-open-dataset
@@ -118,8 +120,12 @@ https://github.com/waymo-research/waymo-open-dataset
 and Udacity nano degree assignments 
 https://github.com/udacity/nd013-c2-fusion-starter
 
+# Localization
+Localization: Autonomous robot/vehicle localization is the prediction of state pararmeters(Position, Orientation,Velocity etc)
+Vision based localization,IMU and odometer data, LIDAR based localization 
+SLAM algorithms
 
-
+Multiple sensor data is used to predict the robot state. Kalman filters(EKF/UKF) are extensively used.
 
 
 
