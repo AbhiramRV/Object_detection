@@ -134,6 +134,11 @@ SLAM algorithms
 Multiple sensor data is used to predict the robot state. Kalman filters(EKF/UKF) are extensively used.
 
 
+# Planning 
+
+1. High level planning
+2. Behaviour planning
+3. Low level planning
 
 
 
