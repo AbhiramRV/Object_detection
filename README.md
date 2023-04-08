@@ -113,9 +113,15 @@ Usually , more than one sensor are used for perception tasks. Like combination o
 These sensors information are used for imporoved detection and tracking by sensor fusion techinques.
 
 PCL library and ROS lidar package can be used to simplify the LIDAR work flow. 
+#Datasets for Self driving car development
 
-Waymo open dataset can be used to train models and develop perception algorithms.
-https://github.com/waymo-research/waymo-open-dataset
+1. Waymo open dataset can be used to train models and develop perception algorithms. 
+        https://github.com/waymo-research/waymo-open-dataset
+
+2. BDD100K dataset        https://www.vis.xyz/bdd100k/
+3. KITTI dataset          https://www.cvlibs.net/datasets/kitti/
+
+
 
 and Udacity nano degree assignments 
 https://github.com/udacity/nd013-c2-fusion-starter
